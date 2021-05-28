@@ -380,7 +380,7 @@ Env in Arrow
 
 # Soren Harner Bio Long
 
-Soren is a data scientist working in computer vision, natural language, probablistic programming, and big data. He took over RC2AI after his father Jim Harner passed away and seeks collaborators in data science education. In his 25 year career, Soren held executive product leadership roles in companies such as Atlassian, BigCommerce, and MuleSoft. He is also CTO at LayerJot, a computer vision company in Healthcare. Soren has a MSCS with an AI specialization from Stanford University.
+Soren is a data scientist working in computer vision, natural language, and big data. In this talk, Soren is representing RC2AI, a company founded by his father, Jim Harner, who passed away earlier this year. In his 25 year career in software, Soren has held executive product leadership roles in companies such as Atlassian, BigCommerce, and MuleSoft. He is currently CTO at LayerJot, a computer vision company active Healthcare. Soren has a MSCS with an AI specialization from Stanford University.
 --- 
 
 # Brian's Presentation and Book
