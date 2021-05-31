@@ -4,7 +4,7 @@ theme: uncover
 _class: invert
 paginate: true
 header: 
-footer: SDSS 2021, Soren Harner, RC2AI
+footer: SDSS 2021, © Soren Harner, RC2AI
 ---
 
 <style>
@@ -32,9 +32,51 @@ h1 {
 
 # Appendix
 
-## How Usability and Reproducibility in Software Improves Teaching and Research
+### How Usability and Reproducibility in Software Improves Teaching and Research
 
 ### Soren Harner, RC2AI
+
+---
+
+### Jim's 50 years in statistical computing
+
+![width:1000px](./images/sdss_omni/50_years.png)
+
+---
+
+### 1990s Interactive Graphics in XLispStat
+
+![width:500px](./images/sdss_omni/xlisp_stat.png)
+
+---
+
+### 2000s JavaStat: GUI with R Backend
+
+![width:600px](./images/sdss_omni/JavaStat.png)
+
+---
+
+### After 2015: RSpark and Reproducibility
+
+* Teach data science courses and seminars
+* Introduce SQL, DataFrames, MapReduce, Streaming
+* Emphasis on reproducibility with Docker and Git
+* Built on R, Spark, Apache Arrow, and Postgres
+* Building on [rocker](https://www.rocker-project.org), R on Docker
+* Brought back XLispStat with [xStartR](http://www.user2019.fr/static/pres/t246174.pdf)
+
+---
+
+### $Rc^2$ Reprocibility for Everyone
+
+![width:800px](./images/sdss_omni/rc2ai.png)
+  
+---
+
+<!-- _backgroundColor: black -->
+
+
+![](./image/../images/life_universe_everything.png)
 
 ---
 
@@ -44,14 +86,16 @@ Given the same raw data, can you follow the steps and understand the assumptions
 
 ---
 
-# Why does it matter?
+### Why does it matter?
 
-* Improves trust and transparency in science and beyond
-* Promotes learning, habits, and building on others' work
+![width:600px bg right:60%](./images/science_authority.png)
+
+* Learning and building on others' work
+* Transparency over authority
 
 ---
 
-# In Research
+### Reproducibility in Research
 
 ![width:350px bg right:40%](./images/reproducibility_by_field.png)
 
@@ -60,55 +104,110 @@ Given the same raw data, can you follow the steps and understand the assumptions
 
 ---
 
-# In Education
+### Teach reproducibility
 
-Jim's pioneering work designing data science programs supporting:
+![width:350px bg right:40%](./images/sdss_omni/calculator.png)
 
-* Greater role of data in all fields
-* Rise of computational sciences
-
----
-
-# Why is it hard?
-
-* Accessible data, code, and runtime
-* Replicate the environment
-* Not WYSIWYG
-* Cloud operations
-* Trust chain for security
-  
----
-
-# Jim and team built
-
-* [$RC^2$](https://github.com/mlilback/rc2SwiftClient) iOS and Mac Swift Client for Notebooks with remote computation
-* [RSpark](https://github.com/jharner) a "Big Data" Docker-base compute environment with R, Spark, and other packages
+* Data used in all fields
+* Computational sciences
+* Larger models and big data
 
 ---
 
-# Late nights discussing
+## Why is it hard?
 
-* Python, Spark, R, etc.
-* Authoring in R Markdown vs. Jupyter
-* Apache Arrow for data
-* Docker, Kubernetes, and GPUs
-* (Use Icons)
+![width:500px bg right:50%](./images/sdss_omni/excel_fails.png)
+
+* Methods and habits
+* Accessible tools and data
+* Versioning everything
+* Sharing and identity
+
+---
+
+<!-- 
+_backgroundColor: black
+color: white
+-->
+
+# Continuing Jim's Work
 
 ---
 
-# NoteCalc
+### Author reproducibly
 
-![width:600px bg right:50%](./images/sdss_2021_ideas/Making%20Notebooks%20Smart.png)
+<!-- 
+color: back
+-->
 
-* Reproducibility made easy
-* Author computational notebooks
-* Read, share, re-use
-* Cloud service or run yourself
+![width:500px bg right:40%](./images/sdss_omni/side_by_side_edit.png)
+
+* Versioned markdown
+* Executable code chunks
+* VS Code, Github ecosystem
+* R, Python, Julia, etc.
+* Javascript, CSS, vegalite
+* Pull request to publish
 
 ---
-# Remote Computation
+
+### Read, tinker
+
+![width:370px bg right:50%](./images/sdss_omni/share_and_run.png)
+
+* Read, share, re-use interactive notebooks
+* Mobile and Web
+* Obviate the calculator
+* Better than static books and reports
+* Verifiable, tamperproof
+
+---
+
+### Accessible, scalable cloud containers
 
 ![w:573 h:408](./images/sdss_2021_ideas/Rethinking%20Notebooks.png)
+
+---
+
+### Collaboration services
+
+![w:800](./images/sdss_omni/instructor_student.png)
+
+---
+
+### Instructor student sharing
+
+![w:700](./images/sdss_omni/instructor_student_seq.png)
+
+---
+
+# You can get involved
+
+* Use it to share your courses
+* Looking for open source collaborators
+* Some funding available
+
+---
+
+# Thank you
+
+### [Link to presentation, references, etc.](https://github.com/sharner/notecalc/blob/main/documents/sdss_preso/)
+
+---
+
+### Reproducibility key to sharing
+
+* Accessible code, e.g. Github
+* Accessible, tamper-proof dataset vault, e.g. Arrow
+* Accessible environment, e.g. Dockerfiles
+* Notebook compiled into computational graph, i.e. shared random seed, externalized jobs
+* Verifiable identity, auditable
+
+---
+
+### Instructor, student collaboration
+
+![w:800](./images/sdss_omni/instructor_student.png)
 
 ---
 
@@ -156,7 +255,19 @@ Jim's pioneering work designing data science programs supporting:
 
 ---
 
-# Appendix
+# In Education
+
+Jim's pioneering work designing data science programs supporting:
+
+* Greater role of data in all fields
+* Rise of computational sciences
+
+---
+
+# Jim and team built
+
+* [$RC^2$](https://github.com/mlilback/rc2SwiftClient) iOS and Mac Swift Client for Notebooks with remote computation
+* [RSpark](https://github.com/jharner) a "Big Data" Docker-base compute environment with R, Spark, and other packages
 
 ---
 
@@ -240,15 +351,6 @@ Env in Arrow
 
 ---
 
-##
-
----
-
-
-
-
----
-
 # Literate Programming
 
 * Markdown, e.g. Knitr
@@ -261,6 +363,11 @@ Env in Arrow
 ---
 
 # Language Servers
+
+* Support different IDEs and environments
+* Code completion for language and symbols
+* Hover, Jump to Ref, Find References
+* Diagnostics
 
 ---
 
@@ -378,11 +485,6 @@ Env in Arrow
 
 ---
 
-# Soren Harner Bio Long
-
-Soren is a data scientist working in computer vision, natural language, and big data. In this talk, Soren is representing RC2AI, a company founded by his father, Jim Harner, who passed away earlier this year. In his 25 year career in software, Soren has held executive product leadership roles in companies such as Atlassian, BigCommerce, and MuleSoft. He is currently CTO at LayerJot, a computer vision company active Healthcare. Soren has a MSCS with an AI specialization from Stanford University.
---- 
-
 # Brian's Presentation and Book
 
 [“Achieving Practical Reproducibility with Transparency and Accessibility” (DSSV 2020)](https://cartesianfaith.files.wordpress.com/2020/07/rowe-dssv-2020.pdf)
@@ -395,15 +497,26 @@ Science in R](https://cartesianfaith.files.wordpress.com/2018/11/rowe-introducti
 
 # Bio
 
-Soren Harner is a data scientist working in computer vision, natural language, and big data. He has taken over RC2AI from his father Jim Harner, 
+Soren Harner is a data scientist and CTO with 25+ years in software working in computer vision, natural language, and big data.
+
+# Soren Harner Bio Long
+
+Soren is a data scientist working in computer vision, natural language, and big data. In this talk, Soren is representing RC2AI, a company founded by his father, Jim Harner, who passed away earlier this year. In his 25 year career in software, Soren has held executive product leadership roles in companies such as Atlassian, BigCommerce, and MuleSoft. He is currently CTO at LayerJot, a computer vision company active Healthcare. Soren has a MSCS with an AI specialization from Stanford University.
+
+--- 
 
 ---
 
-# Articles
+# Articles on Reproducibility
 
-[1,500 scientists lift the lid on reproducibility](https://www.nature.com/articles/533452a)
+* [1,500 scientists lift the lid on reproducibility](https://www.nature.com/articles/533452a)
+* [What does research reproducibility mean?](https://stm.sciencemag.org/content/8/341/341ps12)
+* [Trust in science, social consensus and vaccine confidence](https://www.nature.com/articles/s41562-021-01115-7), Nature 2021 Survey
+* [What qualifies as scientific authority?](https://envcentury.medium.com/what-qualifies-as-scientific-authority-37b9d422352c)
 
-[What does research reproducibility mean?](https://stm.sciencemag.org/content/8/341/341ps12)
+---
 
-[Trust in science, social consensus and vaccine confidence](https://www.nature.com/articles/s41562-021-01115-7), Nature 2021 Survey
+# Jim's Software
+
+[xStatR UserR2019](http://www.user2019.fr/static/pres/t246174.pdf)
 
