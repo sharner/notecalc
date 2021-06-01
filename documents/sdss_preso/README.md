@@ -4,6 +4,10 @@ This presentation was created for the memorial session for [E. James Harner](htt
 
 More of Jim's work discussed in the presentation is found in his [Github Repos](https://github.com/jharner).
 
+## Feedback and Pilot Signup
+
+Please fill out the [Feedback Form](https://forms.gle/9SCse7dwZFsenEEt7) to give feedback on the proposed RC2 concept and / or sign up for the Pilot.
+
 ## Tributes
 
 * [Obituary in Dominion Post](https://www.dominionpost.com/2021/02/13/james-harner/)

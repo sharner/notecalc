@@ -32,167 +32,6 @@ h1 {
 
 # Appendix
 
-### How Usability and Reproducibility in Software Improves Teaching and Research
-
-### Soren Harner, RC2AI
-
----
-
-### Jim's 50 years in statistical computing
-
-![width:1000px](./images/sdss_omni/50_years.png)
-
----
-
-### 1990s Interactive Graphics in XLispStat
-
-![width:500px](./images/sdss_omni/xlisp_stat.png)
-
----
-
-### 2000s JavaStat: GUI with R Backend
-
-![width:600px](./images/sdss_omni/JavaStat.png)
-
----
-
-### After 2015: RSpark and Reproducibility
-
-* Teach data science courses and seminars
-* Introduce SQL, DataFrames, MapReduce, Streaming
-* Emphasis on reproducibility with Docker and Git
-* Built on R, Spark, Apache Arrow, and Postgres
-* Building on [rocker](https://www.rocker-project.org), R on Docker
-* Brought back XLispStat with [xStartR](http://www.user2019.fr/static/pres/t246174.pdf)
-
----
-
-### $Rc^2$ Reprocibility for Everyone
-
-![width:800px](./images/sdss_omni/rc2ai.png)
-  
----
-
-<!-- _backgroundColor: black -->
-
-
-![](./image/../images/life_universe_everything.png)
-
----
-
-# Reproducibility
-
-Given the same raw data, can you follow the steps and understand the assumptions of how the authors arrived at their conclusion?
-
----
-
-### Why does it matter?
-
-![width:600px bg right:60%](./images/science_authority.png)
-
-* Learning and building on others' work
-* Transparency over authority
-
----
-
-### Reproducibility in Research
-
-![width:350px bg right:40%](./images/reproducibility_by_field.png)
-
-* [Nature 2016 Survey](https://www.nature.com/articles/533452a) 52% say there is crisis 
-* [Nature 2021 Survey](https://www.nature.com/articles/s41562-021-01115-7) confidence in science leads to vaccination
-
----
-
-### Teach reproducibility
-
-![width:350px bg right:40%](./images/sdss_omni/calculator.png)
-
-* Data used in all fields
-* Computational sciences
-* Larger models and big data
-
----
-
-## Why is it hard?
-
-![width:500px bg right:50%](./images/sdss_omni/excel_fails.png)
-
-* Methods and habits
-* Accessible tools and data
-* Versioning everything
-* Sharing and identity
-
----
-
-<!-- 
-_backgroundColor: black
-color: white
--->
-
-# Continuing Jim's Work
-
----
-
-### Author reproducibly
-
-<!-- 
-color: back
--->
-
-![width:500px bg right:40%](./images/sdss_omni/side_by_side_edit.png)
-
-* Versioned markdown
-* Executable code chunks
-* VS Code, Github ecosystem
-* R, Python, Julia, etc.
-* Javascript, CSS, vegalite
-* Pull request to publish
-
----
-
-### Read, tinker
-
-![width:370px bg right:50%](./images/sdss_omni/share_and_run.png)
-
-* Read, share, re-use interactive notebooks
-* Mobile and Web
-* Obviate the calculator
-* Better than static books and reports
-* Verifiable, tamperproof
-
----
-
-### Accessible, scalable cloud containers
-
-![w:573 h:408](./images/sdss_2021_ideas/Rethinking%20Notebooks.png)
-
----
-
-### Collaboration services
-
-![w:800](./images/sdss_omni/instructor_student.png)
-
----
-
-### Instructor student sharing
-
-![w:700](./images/sdss_omni/instructor_student_seq.png)
-
----
-
-# You can get involved
-
-* Use it to share your courses
-* Looking for open source collaborators
-* Some funding available
-
----
-
-# Thank you
-
-### [Link to presentation, references, etc.](https://github.com/sharner/notecalc/blob/main/documents/sdss_preso/)
-
 ---
 
 ### Reproducibility key to sharing
@@ -203,11 +42,6 @@ color: back
 * Notebook compiled into computational graph, i.e. shared random seed, externalized jobs
 * Verifiable identity, auditable
 
----
-
-### Instructor, student collaboration
-
-![w:800](./images/sdss_omni/instructor_student.png)
 
 ---
 
@@ -246,31 +80,6 @@ color: back
 
 ---
 
-# Next Steps
-
-* Launch as an on-line platform
-* Looking for open source collaborator to build it
-* Looking for pilot it for teaching data related courses
-* We have some funding
-
----
-
-# In Education
-
-Jim's pioneering work designing data science programs supporting:
-
-* Greater role of data in all fields
-* Rise of computational sciences
-
----
-
-# Jim and team built
-
-* [$RC^2$](https://github.com/mlilback/rc2SwiftClient) iOS and Mac Swift Client for Notebooks with remote computation
-* [RSpark](https://github.com/jharner) a "Big Data" Docker-base compute environment with R, Spark, and other packages
-
----
-
 # Remove friction
 
 1. Sign up
@@ -278,12 +87,6 @@ Jim's pioneering work designing data science programs supporting:
 1. Invite collaborators, which can be students
 1. Author, find, critique, reuse
 1. Share
-
----
-
-# What's broken with notebooks
-
-* Block structure, but REPL underneath
 
 ---
 
@@ -382,18 +185,6 @@ Env in Arrow
 
 ---
 
-<!-- _backgroundColor: aqua -->
-
-# Introducing RC2AI
-
-* Designed for Teaching
-* Executable Markdown Documents
-* VS Code Extension
-* NoteCalc mobile app
-* Supported by Cloud Services
-
----
-
 # Interactive Data Analysis
 
 * Brushing and Linked Data
@@ -446,33 +237,6 @@ Env in Arrow
 
 ---
 
-# Data Science Workflow
-
-![](./images/sdss_2021_ideas/Data%20Science%20Workflow.png)
-
----
-
-# Smart Notebooks
-
-![](./images/sdss_2021_ideas/Making%20Notebooks%20Smart.png)
-
----
-
-# Desktop Centric Workflow
-
-![bg ](./images/sdss_2021_ideas/Desktop-Centric.png)
-
-
----
-
-# Server Centric Workflow
-
-![big fit](./images/sdss_2021_ideas/Server-Centric.png)
-
----
-
-![bg left](./images/sdss_2021_ideas/Rethinking%20Notebooks%201.png)
-
 # Reading and Sharing
 
 * Notebook has a unique endpoint
@@ -485,7 +249,7 @@ Env in Arrow
 
 ---
 
-# Brian's Presentation and Book
+# Brian Rowe's Presentation and Book
 
 [“Achieving Practical Reproducibility with Transparency and Accessibility” (DSSV 2020)](https://cartesianfaith.files.wordpress.com/2020/07/rowe-dssv-2020.pdf)
 
@@ -499,11 +263,11 @@ Science in R](https://cartesianfaith.files.wordpress.com/2018/11/rowe-introducti
 
 Soren Harner is a data scientist and CTO with 25+ years in software working in computer vision, natural language, and big data.
 
+---
+
 # Soren Harner Bio Long
 
 Soren is a data scientist working in computer vision, natural language, and big data. In this talk, Soren is representing RC2AI, a company founded by his father, Jim Harner, who passed away earlier this year. In his 25 year career in software, Soren has held executive product leadership roles in companies such as Atlassian, BigCommerce, and MuleSoft. He is currently CTO at LayerJot, a computer vision company active Healthcare. Soren has a MSCS with an AI specialization from Stanford University.
-
---- 
 
 ---
 
