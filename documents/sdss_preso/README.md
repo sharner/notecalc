@@ -20,6 +20,19 @@ Please fill out the [Feedback Form](https://forms.gle/9SCse7dwZFsenEEt7) to give
 
 * [AMSAT News](https://magazine.amstat.org/blog/2021/04/01/obitsapril21/)
 
+
+## Thank you
+
+Thanks to the following people for helping me fill in the gaps on Jim's software:
+
+* Mark Lilback
+* Chris Grant
+* Jun Tan
+* Brad Price
+* Phil Turk
+* Snehalata Huzurbazar
+* Gerry Hobbs
+
 ## Compiling this presentation
 
 This presentation was created with the [Marp]() framework.
