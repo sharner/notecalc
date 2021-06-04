@@ -2,11 +2,14 @@
 
 This presentation was created for the memorial session for [E. James Harner](https://stat.wvu.edu/Faculty/jharner.html), and given at SDSS 2021 entitled [How Usability and Reproducibility in Software Improves Teaching and Research](https://ww2.amstat.org/meetings/sdss/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309853).
 
+[SDSS 2021 Presentation Slides](https://sharner.github.io/notecalc/).
+
+## Pilot Signup and Feedback
+
+Please fill out the [Signup and Feedback Form](https://forms.gle/9SCse7dwZFsenEEt7) to give feedback on the proposed RC2 concept and / or sign up for the Pilot.
+
+## Jim's Work
 More of Jim's work discussed in the presentation is found in his [Github Repos](https://github.com/jharner).
-
-## Feedback and Pilot Signup
-
-Please fill out the [Feedback Form](https://forms.gle/9SCse7dwZFsenEEt7) to give feedback on the proposed RC2 concept and / or sign up for the Pilot.
 
 ## Tributes
 
