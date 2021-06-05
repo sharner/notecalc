@@ -1,6 +1,6 @@
 # SDSS 2021 Presentation
 
-This presentation was created for the memorial session for [E. James Harner](https://stat.wvu.edu/Faculty/jharner.html), and given at SDSS 2021 entitled [How Usability and Reproducibility in Software Improves Teaching and Research](https://ww2.amstat.org/meetings/sdss/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309853).
+This presentation was created for the memorial session in honor of [Jim Harner](https://stat.wvu.edu/Faculty/jharner.html), and given at SDSS 2021 entitled [How Usability and Reproducibility in Software Improves Teaching and Research](https://ww2.amstat.org/meetings/sdss/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309853).
 
 [SDSS 2021 Presentation Slides](https://sharner.github.io/notecalc/).
 
