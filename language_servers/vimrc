@@ -1,0 +1,24 @@
+filetype plugin indent on
+syntax on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" Install coc
+call plug#begin('~/.vim/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
+" set up language server
+let g:coc_global_extensions = [
+            \ 'coc-json',
+            \ 'coc-clangd',
+            \ 'coc-python',
+            \ 'coc-snippets',
+            \ 'coc-ultisnips',
+            \ 'coc-texlab',
+            \ ]
+
